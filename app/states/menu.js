@@ -1,7 +1,7 @@
 module.exports = {
 
   create: function () {
-    var title = this.add.text(0, 0, 'Duck Quest', {
+    var title = this.add.text(0, 0, 'Tile Demo', {
       fill: 'white',
       font: '100px fantasy'
     });
@@ -11,7 +11,7 @@ module.exports = {
   },
 
   startGame: function () {
-    this.state.start('game');
+    this.state.start('tiledemo');
   }
 
 };
